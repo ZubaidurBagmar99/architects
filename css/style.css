@@ -263,15 +263,54 @@ header section end
 }
 /* Facts section end */
 /* main section end */
+/* Extra section Start*/
+.updates {
+    text-align: center;
+    margin: 0 200px;
+    
+  }
+.email-item{
+    background-color: #d155551f;
+    height: 30vh;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+.email-item input{
+    margin: 80px 0;
+}
+.email-item input[type=email]{
+    background-color: #02020228;
+    padding: 10px;
+    border: none;
+    margin-right: -5px;
+}
+.email-item input[type=submit]{
+    background-color: #d15555;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+}
+/* Extra section end*/
+
+
+
 
 /* footer section start */
+.under{
+    
+    margin-bottom: 100px;
+}
 footer{
     background: #ff900e1a;
+    justify-content: center;
 }
 footer p{
     font-size: 14px;
     font-weight: 400;
-    line-height: 20px;
     text-align: center;
     color: #424242;
     padding: 30px;
@@ -380,14 +419,14 @@ footer p{
     /* Enjoy Features section end */
     /* ------------------------------------------------ */
     /* Some Facts section start */
-    .some-fects-content{
+    .facts-content{
         padding: 20px;
     }
-    .some-fects-text article p{
+    .some-facts-text article p{
         width: 100%;
         padding: 30px 0;
     }
-    .some-fects-box{
+    .some-facts-box{
         flex-direction: column;
         padding: 0 0;
     }
@@ -408,11 +447,11 @@ footer p{
         align-items: center;
     }
     /* Sponspors section end */
-    /* ------------------------------------------------ */
+    
     /* Extra unique Section start */
 
     /* Extra unique Section end */
-    /* ------------------------------------------------ */
+   
     /* footer section start */
     footer p{
         font-size: 10px;
