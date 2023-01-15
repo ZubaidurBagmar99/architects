@@ -264,10 +264,17 @@ header section end
 /* Facts section end */
 /* main section end */
 /* Extra section Start*/
+.extra{
+    margin-top: 50px;
+}
 .updates {
+    
     text-align: center;
     margin: 0 200px;
     
+  }
+  .updates p{
+    margin: 20px;
   }
 .email-item{
     background-color: #d155551f;
