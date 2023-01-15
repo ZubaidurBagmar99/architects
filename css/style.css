@@ -29,8 +29,7 @@ nav{
 .logo{
     font-size: 35px;
     font-weight: 700;
-    line-height: 80px;
-    padding: 0 220px;
+    padding: 0 200px;
 }
 nav ul{
     float: right;
@@ -66,10 +65,10 @@ nav ul li{
     color: #727272;
     padding: 30px 0;
 }
-.banner-img img{
+.banner img{
     width: 100%;
 }
-/* Banner section end */
+/* Banner part end */
 
 /* ---------------
 header section end 
@@ -159,8 +158,6 @@ header section end
 .love-features-img img{
     width: 500px;
 }
-
-
 
 .box-experience{
     background-color: #FF900E;
@@ -307,10 +304,8 @@ header section end
 
 
 /* footer section start */
-.under{
-    
-    margin-bottom: 100px;
-}
+
+
 footer{
     background: #ff900e1a;
     justify-content: center;
@@ -325,54 +320,33 @@ footer p{
 /* footer section end */
 
 
-
-
-
-
-
 /* Mobile Breakpoint */
 @media only screen and (max-width: 576px){
-    /* button section start */
-    .btn-primary{
-        font-size: 16px;
-        padding: 10px 15px;
-    }
-    /* button section end */
-    /* ------------------------------------------------ */
-    /* bar section start */
-    .check-btn{
-        display: block;
-    }
-    ul{
-        position: fixed;
-        width: 100%;
-        height: 40vh;
-        background-color: #FF900E;
-        color: #ffffff;
-        top: 80px;
-        left: -100%;
-        text-align: center;
-        transition: all .5s;
-    }
-    nav ul li{
-        display: block;
-        font-size: 20px;
-    }
-    #check:checked ~ ul{
-        left: 0;
-    }
-    /* bar section end */
-    /* ------------------------------------------------ */
     /* Nav section start */
-    .logo-name{
-        font-size: 18px;
-        padding: 0 20px;
+    .navigation{
+        align-items: center;
+    }
+    .navigation ul{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        
+    }
+    
+    .logo{
+        font-size: 16px;
+        font-weight: 700;
+        padding: 0 10px;
+    }
+    ul li{
+        font-size: 10px;
+        font-weight: 200;
+        
     }
     /* Nav section end */
-    /* ------------------------------------------------ */
+    
     /* Banner section start */
-    .banner-content,
-    .banner-text{
+    .banner-part,
+    .banner-details{
         padding: 0 20px 25px 20px;
     }
     .banner-text article h1{
@@ -384,9 +358,9 @@ footer p{
         text-align: justify;
     }
     /* Banner section end */
-    /* ------------------------------------------------ */
+    
     /* Features section start */
-    .features-part{
+    .features-content{
         padding: 20px;
         flex-direction: column;
     }
@@ -397,7 +371,7 @@ footer p{
         font-size: 14px;
     }
     /* Features section end */
-    /* ------------------------------------------------ */
+  
     /* Enjoy Features section start */
     .love-features{
         padding: 10px 20px;
@@ -410,7 +384,7 @@ footer p{
     .love-features-img img{
         width: 100%;
     }
-    /* ------------------------------------------------ */
+    
     /* Experience box section start */
     .box-experience{
         padding: 10px;
@@ -424,7 +398,7 @@ footer p{
     }
     /* Experience box section end */
     /* Enjoy Features section end */
-    /* ------------------------------------------------ */
+   
     /* Some Facts section start */
     .facts-content{
         padding: 20px;
@@ -456,7 +430,9 @@ footer p{
     /* Sponspors section end */
     
     /* Extra unique Section start */
-
+    .updates {
+        margin: 0 20px;
+      }
     /* Extra unique Section end */
    
     /* footer section start */
@@ -465,6 +441,7 @@ footer p{
         padding: 15px;
     }
     /* footer section end */
+    
 }
 
 
