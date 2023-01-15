@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,600;0,700;1,400;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* button section start */
+.btn-primary{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 15px 20px;
+    color: #ffffff;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 8px;
+}
+/* button section end */
+
+/* Navigation section start */
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    background: #ff900e1a;
+}
+.logo{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 80px;
+    padding: 0 220px;
+}
+nav ul{
+    float: right;
+    margin-right: 200px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 10px;
+    font-size: 17px;
+}
+/* Navigation section end */
+
+/* Banner part start */
+.banner-part{
+    padding: 0 200px 40px 200px;
+    background: #ff900e1a;
+}
+.banner-details{
+    padding: 50px;
+    text-align: center;
+}
+.banner-details article h1{
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 55px;
+    color: #131313;
+}
+.banner-details article p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #727272;
+    padding: 30px 0;
+}
+.banner-img img{
+    width: 100%;
+}
+/* Banner section end */
+
+/* ---------------
+header section end 
+-------------------*/
+
+/*-------------------
+ main section start 
+ -------------------*/
+
+/* Quick list of Our Features section start */
+.features-content{
+    padding: 60px 200px 60px 240px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+}
+.feature-photos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 24px;
+}
+.feature-photos img{
+    width: 242px;
+    height: 242px;
+}
+.feature-details article h2{
+    font-size: 35px;
+    font-weight: 500;
+}
+.feature-details article h2 .color-gray{
+    color: #727272;
+}
+.feature-details article h2 .color-orange{
+    color: #FF900E;
+}
+.feature-details article p{
+    font-size: 14px;
+    font-weight: 100;
+    color: #727272;
+    padding: 24px 0;
+}
+/* Quick list of Our Features section end */
+
+/* Features you will love & enjoy section start  */
+.love-features{
+    padding: 20px 200px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.item-box h2{
+    font-size: 35px;
+    font-weight: 700;
+    color: #131313;
+    padding: 0 70px 0 20px;
+    border-left: 5px solid #FF900E;
+}
+.item-box p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #727272;
+    padding: 20px 0 10px 0;
+}
+.item-box-content{
+    padding: 15px;
+    background-color: #ffffff;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #1313136e;
+}
+.item-box-content h2{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #131313;
+}
+.item-box-content p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #727272;
+    padding-top: 12px;
+}
+.love-features-img img{
+    width: 500px;
+}
+
+
+
+.box-experience{
+    background-color: #FF900E;
+    padding: 20px;
+    display: inline-block;
+    color: #ffffff;
+    position: absolute;
+    text-align: center;
+    left: 47%;
+    margin-top: -150px;
+    border-radius: 5px;
+}
+.box-experience h3{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+
+/* Features you will love & enjoy section start */
+
+/* Facts section start */
+.facts-content{
+    padding: 50px 200px;
+}
+.some-facts-info article h2{
+    font-size: 45px;
+    line-height: 53px;
+    font-weight: 700;
+    color: #131313;
+}
+.some-facts-info article p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #727272;
+    width: 60%;
+    padding: 24px 0 80px 0;
+}
+.some-facts-box{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+.box-item{
+    background-color: #ffffff;
+    padding: 30px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #FF900E;
+    
+}
+.box-item:hover{
+    border-color: #ffffff;
+    box-shadow: 0 0 7px #131313;
+    cursor: pointer;
+    transition: all .5s ease;
+    transform:  skew(7deg);
+}
+.box-item h3{
+    font-size: 35px;
+    font-weight: 600;
+    color: #424242;
+}
+.box-item p{
+    font-size: 14px;
+    font-weight: 600;
+    color: #727272;
+}
+/* Sponspors section start */
+.sponspors{
+    padding: 30px 200px;
+}
+.sponspors-text article{
+    text-align: center;
+    padding: 0 200px;
+}
+.sponspors-text article h3{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 53px;
+    color: #131313;
+}
+.sponspors-text article p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #727272;
+    padding: 24px 0 40px 0;
+}
+.sponspors-company-logo{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+.sponspors-company-logo img{
+    width: 130px;
+    height: 35px;
+    filter: grayscale(100%);
+}
+/* Facts section end */
+/* main section end */
+
+/* footer section start */
+footer{
+    background: #ff900e1a;
+}
+footer p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: #424242;
+    padding: 30px;
+}
+/* footer section end */
+
+
+
+
+
+
+
+/* Mobile Breakpoint */
+@media only screen and (max-width: 576px){
+    /* button section start */
+    .btn-primary{
+        font-size: 16px;
+        padding: 10px 15px;
+    }
+    /* button section end */
+    /* ------------------------------------------------ */
+    /* bar section start */
+    .check-btn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 40vh;
+        background-color: #FF900E;
+        color: #ffffff;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        font-size: 20px;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+    /* bar section end */
+    /* ------------------------------------------------ */
+    /* Nav section start */
+    .logo-name{
+        font-size: 18px;
+        padding: 0 20px;
+    }
+    /* Nav section end */
+    /* ------------------------------------------------ */
+    /* Banner section start */
+    .banner-content,
+    .banner-text{
+        padding: 0 20px 25px 20px;
+    }
+    .banner-text article h1{
+        font-size: 24px;
+        line-height: 1.4;
+    }
+    .banner-text article p{
+        font-size: 12px;
+        text-align: justify;
+    }
+    /* Banner section end */
+    /* ------------------------------------------------ */
+    /* Features section start */
+    .features-part{
+        padding: 20px;
+        flex-direction: column;
+    }
+    .feature-photos{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .feature-details article p{
+        font-size: 14px;
+    }
+    /* Features section end */
+    /* ------------------------------------------------ */
+    /* Enjoy Features section start */
+    .love-features{
+        padding: 10px 20px;
+        flex-direction: column;
+    }
+    .item-box h2{
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .love-features-img img{
+        width: 100%;
+    }
+    /* ------------------------------------------------ */
+    /* Experience box section start */
+    .box-experience{
+        padding: 10px;
+        position: relative;
+        left: 5%;
+        margin-top: 0;
+    }
+    .box-experience h3{
+        font-size: 30px;
+        line-height: 50px;
+    }
+    /* Experience box section end */
+    /* Enjoy Features section end */
+    /* ------------------------------------------------ */
+    /* Some Facts section start */
+    .some-fects-content{
+        padding: 20px;
+    }
+    .some-fects-text article p{
+        width: 100%;
+        padding: 30px 0;
+    }
+    .some-fects-box{
+        flex-direction: column;
+        padding: 0 0;
+    }
+    .box-item{
+        margin: 10px;
+        padding: 20px;
+    }
+    /* Some Facts section end  */
+    /* Sponspors section start */
+    .sponspors{
+        padding: 20px;
+    }
+    .sponspors-text article{
+        padding: 0 0;
+    }
+    .sponspors-company-logo{
+        flex-direction: column;
+        align-items: center;
+    }
+    /* Sponspors section end */
+    /* ------------------------------------------------ */
+    /* Extra unique Section start */
+
+    /* Extra unique Section end */
+    /* ------------------------------------------------ */
+    /* footer section start */
+    footer p{
+        font-size: 10px;
+        padding: 15px;
+    }
+    /* footer section end */
+}
+
+
